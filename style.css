@@ -45,3 +45,19 @@ h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+body {margin: 10px 120px 10px 120px;}
+.main-header{
+  display: flex;
+  justify-content:space-between;
+  align-items: center; 
+}
+.navoptions ul{
+  display: flex;
+  gap :20px;
+  list-style: none; 
+}
+
+.imgportfolio {
+  background-color: #fdc435;
+}
+
