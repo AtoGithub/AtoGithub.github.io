@@ -115,3 +115,21 @@ body {margin: 10px 120px 10px 120px;}
   letter-spacing: 0%;
   color: #828282;
 }
+
+#project-section{
+  margin-top: 140px;
+
+}
+
+.proj-title{
+ display: flex;
+ justify-content: center;
+ font-family:"Playfair Display", serif;
+ font-size: 48px;
+ text-decoration: underline;
+ text-decoration-color:#fdc435 ;
+ text-underline-offset: 20px;
+}
+
+
+
