@@ -45,7 +45,10 @@ h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
-body {margin: 10px 120px 10px 120px;}
+body {
+  margin: 10px 120px 10px 120px;
+}
+
 .main-header{
   display: flex;
   justify-content:space-between;
@@ -118,7 +121,7 @@ body {margin: 10px 120px 10px 120px;}
 
 #project-section{
   margin-top: 140px;
-
+align-items: center;
 }
 
 .proj-title{
@@ -129,7 +132,31 @@ body {margin: 10px 120px 10px 120px;}
  text-decoration: underline;
  text-decoration-color:#fdc435 ;
  text-underline-offset: 20px;
+ align-items: center;
 }
 
+/*#project-section{
+  height: 524px ;
+  width: 992px;
 
+}*/
+
+.project-container{
+ display: flex;
+ justify-content: space-around;
+ align-items: flex-start;
+ margin-top: 100px;
+
+}
+
+.project-content{
+width: 496px;
+height: 524px;
+}
+
+.project-image{
+  background-color: #fdc435;
+  height: 526px;
+  width: 496px;
+}
 

@@ -9,3 +9,8 @@ for (let i = 0; i <= 100; i++) {
     console.log(i)
   }
 }
+
+const a = [1,2,3,4,5];
+
+a.push(1);
+
